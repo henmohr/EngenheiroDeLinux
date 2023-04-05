@@ -1,7 +1,7 @@
 #Comando iostat 
 
 iostat -mxy 10 -o JSON
-
+`
 {"sysstat": {
         "hosts": [
                 {
@@ -27,7 +27,7 @@ iostat -mxy 10 -o JSON
         ]
 }}
 
-
+`
 
 Descrição das variáveis:
 %util - porcentagem que o disco está servindo requisições. Valores muito altos indicam fila no disco.
