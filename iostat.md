@@ -31,3 +31,4 @@ iostat -mxy 10 -o JSON
 
 Descrição das variáveis:
 %util - porcentagem que o disco está servindo requisições. Valores muito altos indicam fila no disco.
+
